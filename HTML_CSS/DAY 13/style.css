@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #111;
+  background-color: brown;
+  background: linear-gradient(to right, rgb(250, 192, 192), lightseagreen);
+}
+.container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.head {
+  color: lightcoral;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+}
+
+.para {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-indent: 60px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  text-decoration: line-through;
+  /* text-decoration: underline;
+    text-decoration: overline; */
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+ul {
+  padding: 20px;
+  list-style: square;
+}

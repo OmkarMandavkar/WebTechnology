@@ -1,0 +1,39 @@
+.demo:link{
+    color: lightblue;
+}
+
+.demo:visited{
+    color: yellow;
+}
+
+.a1:hover{
+    color: red;
+}
+
+.a1:active{
+    color: brown;
+}
+
+.demo:active{
+    color: green;
+}
+
+.demo:focus{
+    color: hotpink;
+}
+/* 
+ul>li:nth-child(odd){
+    color: aqua;
+}
+
+ul>li:nth-child(even){
+    color: yellow;
+} */
+
+ul>li:first-child{
+    color: deeppink;
+}
+
+ul>li:last-child{
+    color: deeppink;
+}

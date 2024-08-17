@@ -1,0 +1,29 @@
+/* .container h1{
+    background: hotpink;
+    color: red;
+} */
+
+.container > h1{
+    background: hotpink;
+    color: red;
+}
+
+/* .container > section > h2 + h1 {
+    background: pink;
+} */
+
+.container > section > h2 ~ h1 {
+    background: pink;
+}
+
+form > input[type="text"] {
+    background: aqua;
+}
+
+form > input[required] {
+    background: whitesmoke;
+}
+
+button{
+    background: goldenrod;
+}

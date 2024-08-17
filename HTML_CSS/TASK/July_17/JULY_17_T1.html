@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK 1</title>
+  </head>
+  <body>
+    <style>
+      .card {
+        margin: auto;
+        width: 50%;
+        padding: 0px 20px 20px;
+        background-color: #faf9f6;
+        border: 1px solid black;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+
+    <div class="card">
+      <h1>Application Form</h1>
+      <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" required />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" required />
+        <br /><br />
+
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="dob" id="dob" />
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" />
+        <br /><br />
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+          <option value="" selected disabled>Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="others">Others</option>
+        </select>
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+        <br /><br />
+
+        <label for="pos">Position Available:</label>
+        <input type="radio" name="pos" id="jrdev" value="jrdev" /> Junior
+        Developer
+        <input type="radio" name="pos" id="middev" value="middev" /> Mid-Level
+        Developer
+        <input type="radio" name="pos" id="srdev" value="srdev" /> Senior
+        Developer <br /><br />
+
+        <label for="lang">Programming Languages:</label>
+        <input type="checkbox" name="lang" id="java" value="java" /> Java
+        <input type="checkbox" name="lang" id="javascript" value="javascript" />
+        JavaScript
+        <input type="checkbox" name="lang" id="python" value="python" /> Python
+        <br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" />
+
+        <label for="cpassword">Confirm Password:</label>
+        <input type="password" name="cpassword" id="cpassword" /> <br /><br />
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>

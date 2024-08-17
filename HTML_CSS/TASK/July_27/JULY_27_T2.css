@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, blue, violet);
+}
+
+table, td, th, tr {
+  margin: 40px auto;
+  border-collapse: collapse;
+  padding: 15px 50px;
+}
+
+th {
+  background-color: #221c24;
+  color: white;
+}
+
+tr {
+  background: white;
+}
+
+.shade {
+  background: rgb(225, 226, 226);
+}

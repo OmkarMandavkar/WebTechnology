@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15 July Task</title>
+  </head>
+  <body>
+
+    <!------------------------------- TASK 1 ------------------------------->
+    <h1>List Example</h1>
+    <ol type="I">
+      <li>List Item 1</li>
+      <ol type="a">
+        <li>Nested item 1.1</li>
+        <li>Nested item 1.2</li>
+      </ol>
+      <li>List Item 2</li>
+      <ol type="1">
+        <li>Nested item 2.1</li>
+        <li>Nested item 2.2</li>
+        <ul type="circle">
+          <li>Nested item 2.2.1</li>
+          <li>Nested item 2.2.2</li>
+          <ul type="square">
+            <li>Nested item 2.2.2.1</li>
+            <li>Nested item 2.2.2.2</li>
+          </ul>
+          <li>Nested item 2.2.3</li>
+        </ul>
+      </ol>
+      <li>List Item 3</li>
+      <ul>
+        <li>Nested item 3.1</li>
+        <li>Nested item 3.2</li>
+        <li>Nested item 3.3</li>
+      </ul>
+      <dl>
+        <dt>COMP 249</dt>
+        <dd>Object-Oriented Programming ||</dd>
+
+        <dt>Soen 287</dt>
+        <dd>Web Programming</dd>
+      </dl>
+    </ol>
+
+    <p>This is a <sup>5</sup>test<sub>9</sub> for Assigment 1.</p>
+    <br><br> <hr>
+
+    <!------------------------------- TASK 2 ------------------------------->
+    <h1 style="color: green;">GeeksforGeeks</h1>
+    <h2><b>Nested Unordered List</b></h2>
+
+    <p>GeeksforGeeks courses list:</p>
+
+    <ul>
+        <li>DSA</li>
+            <ul type="circle">
+                <li>Array</li>
+                <li>Linked List</li>
+                <li>Stack</li>
+                <li>Queue</li>
+            </ul>
+
+        <li>Web Technologies</li>
+            <ul type="circle">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            
+        <li>Aptitude</li>
+        
+        <li>Gate</li>
+        
+        <li>Placement</li>
+    </ul>
+    <br><br> <hr>
+
+    <!------------------------------- TASK 3 ------------------------------->
+    <p style="text-align: center">
+      CSS 3 Browser Support (latest browser version)
+    </p>
+
+    <table border="1" cellpadding="15" align="center">
+      <thead style="font-weight: bold">
+        <tr>
+          <th>CSS Property</th>
+          <th>Internet Explorer</th>
+          <th>Firefox</th>
+          <th>Chrome</th>
+          <th>Safari</th>
+          <th>Opera</th>
+        </tr>
+      </thead>
+
+      <tbody style="text-align: center">
+        <tr>
+          <td style="font-weight: bold">Border Radius</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+        </tr>
+
+        <tr>
+          <td style="font-weight: bold">Box Shadow</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>YES</td>
+        </tr>
+
+        <tr>
+          <td style="font-weight: bold">CSS Animations</td>
+          <td>NO</td>
+          <td>NO</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>NO</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br> <hr>
+
+    <!------------------------------- TASK 4 ------------------------------->
+    <h1 style="text-align: center;">TIME TABLE</h1>
+
+    <table border="5" cellpadding="20" cellspacing="0" align="center" style="text-align: center;">
+
+        <thead>
+            <tr>
+                <th> Day/Period </th>
+                <th> I <br> 9:30-10:20 </th>
+                <th> II <br> 10:20-11:10 </th>
+                <th> III <br> 11:10-12:00 </th>
+                <th> 12:00-12:40 </th>
+                <th> IV <br> 12:40-1:30 </th>
+                <th> V <br> 1:30-2:30 </th>
+                <th> VI <br> 2:20-3:10 </th>
+                <th> VII <br> 3:10-4:00 </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td><b>Monday</b></td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td rowspan="6"> <h2>L <br> U <br>N <br>C <br>H</h2> </td>
+                <td colspan="3">LAB</td>
+                <td>Phy</td>
+            </tr>
+
+            <tr>
+                <td><b>Tuesday</b></td>
+                <td colspan="3">LAB</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td>SPORTS</td>
+            </tr>
+
+            <tr>
+                <td><b>Wednesday</b></td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LIBRARY</td>
+            </tr>
+
+            <tr>
+                <td><b>Thursday</b></td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td colspan="3">LAB</td>
+                <td>Mat</td>
+            </tr>
+
+            <tr>
+                <td><b>Friday</b></td>
+                <td colspan="3">Lab</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <td>Eng</td>
+                <td>Phy</td>
+            </tr>
+
+            <tr>
+                <td><b>Saturday</b></td>
+                <td>Eng</td>
+                <td>Che</td>
+                <td>Mat</td>
+                <td colspan="3">SEMINAR</td>
+                <td>SPORTS</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.head1::first-letter {
+  background: yellowgreen;
+}
+
+.para1::first-line {
+  background: blue;
+}
+
+.para1::selection {
+  background: black;
+  color: white;
+}
+
+.head2::before {
+  content: "ABCD";
+}
+
+.head2::after {
+  content: " XYZ";
+}
+
+ol > li::marker {
+  color: red;
+}

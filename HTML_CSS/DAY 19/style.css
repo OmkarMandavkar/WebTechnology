@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  border: 1px solid transparent;
+  background: lightpink;
+  transition: 2s;
+}
+
+.container:hover {
+  /* height: 300px;
+    width: 300px; */
+  background: lightsalmon;
+  /* border-radius: 100%; */
+  transition: 2s;
+
+  /* transform: translate(-300px, -100px); */
+  /* transform: translateX(200px); */
+  /* transform: translateX(-200px); */
+  /* transform: translateY(300px); */
+  /* transform: translateY(-300px); */
+
+  /* transform: rotateX(60deg); */
+  /* transform: rotateY(240deg); */
+  /* transform: rotateZ(3600deg); */
+
+  /* transform: scaleX(1.5); */
+  /* transform: scaleY(1.5); */
+  /* transform: scaleZ(1.5); */
+  /* transform: scale(1.5, 0.5); */
+
+  /* transform: skewX(-60deg); */
+  /* transform: skewY(60deg); */
+  /* transform: skew(60deg); */
+}
+
+.two {
+  height: 300px;
+}
+
+.fa-rocket {
+  font-size: 200px;
+  color: black;
+  animation-name: rc;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+/* @keyframes rc {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+} */
+
+@keyframes rc {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

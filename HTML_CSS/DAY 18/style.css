@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
+  height: 80vh;
+  margin: 40px auto;
+  position: relative;
+}
+
+.demo {
+  height: 120px;
+  width: 120px;
+  border: 1px solid black;
+}
+
+.d1 {
+  background: hotpink;
+  /* position: static;
+    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    right: 30px; */
+}
+
+.d2 {
+  background: lightblue;
+  position: relative;
+  left: 100px;
+}
+
+.d3 {
+  background: lightseagreen;
+  position: fixed;
+  bottom: 20px;
+  left: 130px;
+}

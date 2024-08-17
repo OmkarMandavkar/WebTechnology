@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 3</title>
+</head>
+<body>
+    <style>
+        .container{
+            margin: auto;
+            width: 350px;
+            padding: 1px 20px 20px;
+            background-color: #FAF9F6;
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+        }
+        #fullname, #email, #pword, #cpword, #dob {
+            width: 95%;
+            height: 20px;
+        }
+    </style>
+
+    <div class="container">
+
+        <h3>USER PERSONAL INFORMATION</h3>
+
+        <label for="fullname">Enter your full name</label> <br>
+        <input type="text" name="fullname" id="fullname"> <br> <br>
+
+        <label for="email">Enter your email</label> <br>
+        <input type="email" name="email" id="email"> <br> <br>
+
+        <label for="pword">Enter your password</label> <br>
+        <input type="password" name="pword" id="pword"> <br> <br>
+
+        <label for="cpword">Confirm your password</label> <br>
+        <input type="password" name="cpword" id="cpword"> <br> <br>
+
+        <label for="gender">Enter your gender</label> <br>
+        <input type="radio" name="gender" id="male" value="male"> Male
+        <input type="radio" name="gender" id="female" value="female"> Female
+        <input type="radio" name="gender" id="others" value="others"> Others
+        <br> <br>
+
+        <label for="dob">Enter your Date of Birth</label> <br>
+        <input type="date" name="dob" id="dob"> <br> <br>
+
+        <label for="address">Enter your Address</label> <br>
+        <textarea name="address" id="address" rows="5" cols="43"></textarea> <br> <br>
+
+        <button type="submit">Submit</button>
+
+
+    </div>
+</body>
+</html>

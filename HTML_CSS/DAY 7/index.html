@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <style>
+      .card {
+        margin: auto;
+        width: 350px;
+        background-color: #FAF9F6;
+        padding: 1px 20px 20px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+      }
+    </style>
+
+    <div class="card">
+
+    <h1>SIGN UP</h1>
+    <form action="../DAY 4/index.html">
+      <label for="username">Enter Username</label>
+      <input type="text" name="username" id="username" required />
+      <br />
+      <br />
+
+      <label for="password">Enter Password</label>
+      <input type="password" name="password" id="password" required />
+      <br />
+      <br />
+
+      <label for="email">Enter Email</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <br />
+
+      <label for="DOB">Select DOB</label>
+      <input type="date" name="DOB" id="DOB" />
+      <br />
+      <br />
+
+      <span>Select Gender</span>
+      <input type="radio" name="gender" id="male" value="male" /> male
+      <input type="radio" name="gender" id="female" value="female" /> female
+      <input type="radio" name="gender" id="others" value="others" /> others
+      <br />
+      <br />
+
+      <span>Select Courses</span>
+      <input type="checkbox" name="course" id="java" value="java" /> java
+      <input type="checkbox" name="course" id="javascript" value="javascript" /> javascript
+      <input type="checkbox" name="course" id="react" value="react" /> react
+      <br />
+      <br />
+
+      <select name="Country" id="Country">
+        <option value="" selected disabled>Select your Country</option>
+        <optgroup label="Asia">
+          <option value="India">India</option>
+          <option value="Myanmar">Myanmar</option>
+          <option value="Thailand">Thailand</option>
+        </optgroup>
+        <optgroup label="America">
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+        </optgroup>
+        <optgroup label="Europe">
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+        </optgroup>
+      </select>
+      <br />
+      <br />
+
+      <label for="message">Write Your Message: </label> <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        style="resize: none"
+      ></textarea>
+      <br /><br />
+
+      <label for="percentage">Select percentage</label>
+      <input
+        type="range"
+        name="percentage"
+        id="percentage"
+        min="35"
+        max="100"
+      />
+      <span id="s1">50</span>
+      <br /><br />
+
+      <label for="profile">Upload Profile Photo</label>
+      <input type="file" name="profile" id="profile" />
+      <br /><br />
+
+      <label for="state">Select State</label>
+      <input id="state" list="states" />
+      <datalist id="states">
+        <option value="Maharashtra"></option>
+        <option value="Kerala"></option>
+        <option value="Himachal"></option>
+        <option value="Punjab"></option>
+        <option value="Goa"></option>
+      </datalist>
+      <br /><br />
+
+      <button type="submit">Sign Up</button>
+      <button type="button">Create New Account</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+  </body>
+</html>

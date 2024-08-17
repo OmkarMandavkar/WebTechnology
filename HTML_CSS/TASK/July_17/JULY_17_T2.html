@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK 2</title>
+  </head>
+
+  <body>
+    <style>
+      .card {
+        margin: auto;
+        width: 350px;
+        background-color: #faf9f6;
+        padding: 1px 20px 20px;
+        border: 1px solid black;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+    </style>
+
+    <div class="card">
+      <h1>Novell Services Login</h1>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" required />
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required />
+      <br /><br />
+
+      <label for="city">City of Employment</label>
+      <input type="text" name="city" id="city" />
+      <br /><br />
+
+      <label for="webserver">Web Server</label>
+      <select name="webserver" id="webserver">
+        <option value="" selected disabled>-Choose a Server-</option>
+        <optgroup label="Asia">
+          <option value="India">India</option>
+          <option value="China">China</option>
+          <option value="Thailand">Thailand</option>
+        </optgroup>
+
+        <optgroup label="Europe">
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+          <option value="Italy">Italy</option>
+        </optgroup>
+
+        <optgroup label="South America">
+          <option value="Brasil">Brasil</option>
+          <option value="Columbia">Columbia</option>
+          <option value="ElSalvador">El Salvador</option>
+        </optgroup>
+
+        <optgroup label="Australia">
+          <option value="Melbourne">Melbourne</option>
+          <option value="Sydney">Sydney</option>
+          <option value="Perth">Perth</option>
+        </optgroup>
+      </select>
+      <br /><br />
+
+      <label for="role">Please specify your role:</label> <br />
+      <input type="radio" name="role" id="admin" value="admin" /> Admin <br />
+      <input type="radio" name="role" id="engineer" value="engineer" /> Engineer
+      <br />
+      <input type="radio" name="role" id="manager" value="manager" /> Manager
+      <br />
+      <input type="radio" name="role" id="guest" value="guest" /> Guest
+      <br /><br />
+
+      <label for="sign">Single Sign-on to the following</label> <br />
+      <input type="checkbox" name="sign" id="mail" /> Mail <br />
+      <input type="checkbox" name="sign" id="payroll" /> Payroll <br />
+      <input type="checkbox" name="sign" id="selfservice" /> Self-Service <br />
+      <br />
+
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button>
+    </div>
+  </body>
+</html>

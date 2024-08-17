@@ -1,0 +1,31 @@
+*{
+    background-color: thistle;
+}
+
+h1{
+    background-color: aqua;
+}
+
+#head1{
+    color: aqua;
+    background-color: black;
+}
+
+.demo{
+    color: pink;
+    background: gray;
+}
+.control{
+    color: gray;
+    background: pink;
+}
+
+span{
+    color: black;
+    background: white;
+}
+
+h4, h5, section, .art{
+    background: yellow;
+    color: orangered;
+}
