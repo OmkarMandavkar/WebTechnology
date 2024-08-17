@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #242d34;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif;
+}
+
+form {
+  width: 400px;
+  /* width: 45%; */
+  margin: 80px auto;
+  background: black;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.fa-x-twitter {
+  font-size: 40px;
+  color: white;
+}
+
+form > h2 {
+  color: white;
+}
+
+.btn {
+  width: 220px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+input {
+  height: 40px;
+  width: 220px;
+  background: black;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.b4 {
+  background: black;
+  color: white;
+  border: 1px solid lightgrey;
+}
+
+form > p {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+form > p > span > a {
+  color: #1677b8 !important;
+  text-decoration: none;
+}
+
+form > p > span > a:hover {
+  text-decoration: underline;
+}
+
+.line-break {
+  width: 60%;
+  margin: 10px auto;
+  color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid grey */
+}
+
+.line-break > p {
+  /* border: 1px solid pink; */
+  border-radius: 50%;
+  padding: 5px 6px;
+  position: absolute;
+  background: black;
+  font-weight: bold;
+}

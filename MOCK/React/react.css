@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #23272f;
+  font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.head {
+  width: 100%;
+  height: 80px;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.a1 {
+  /* border: 1px solid white; */
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  color: #737c8b;
+}
+
+.a1 > img {
+  width: 40px;
+  height: 40px;
+}
+
+.a1 > p {
+  font-size: 14px;
+}
+
+.a2 {
+  height: 40px;
+  /* border: 1px solid white; */
+  border-radius: 25px;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #737c8b;
+  background: #333a45;
+  padding: 5px 10px;
+}
+
+.a2 > .left-a2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-magnifying-glass {
+  font-size: 15px;
+}
+
+.a2 > .right-a2 {
+  display: flex;
+  gap: 10px;
+}
+
+.a2 > .right-a2 > p {
+  padding: 1px 7px;
+  color: #737c8b;
+  /* border: 1px solid white; */
+  background: #23272f;
+  border-radius: 8px;
+}
+
+.a3 {
+  flex-basis: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.a3 > ul {
+  padding: 0px 15px;
+  /* border: 1px solid white; */
+  list-style: none;
+  color: #ebecf0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.a3-icons {
+  font-size: 20px;
+  color: #ebecf0;
+}
+
+.section-two {
+  width: 100%;
+}
+
+.section-two > .art-two {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f6f7f9;
+  gap: 15px;
+}
+
+.art-two > img {
+  height: 120px;
+}
+
+.art-two > h1 {
+  font-size: 50px;
+}
+
+.art-two > h3 {
+  font-size: 30px;
+}
+
+.btn-two {
+  display: flex;
+  gap: 30px;
+}
+
+.btntwo {
+  padding: 8px 12px;
+  border-radius: 15px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  color: lightgrey;
+}
+
+.b1 {
+  color: grey;
+  background: #58c4dc;
+}
+
+.b2 {
+  background: transparent !important;
+  border: 1px solid rgb(124, 124, 124);
+}
